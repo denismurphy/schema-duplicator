@@ -1,7 +1,7 @@
 
-# MySQL Schema Duplicator
+# Schema Duplicator
 
-This SQL script duplicates a MySQL schema without referential integrity. It creates a copy of the schema by iterating over all tables in the source schema and creating and inserting them into the target schema. The copy process does not include foreign key constraints.
+This SQL script duplicates a schema without referential integrity. It creates a copy of the schema by iterating over all tables in the source schema and creating and inserting them into the target schema. The copy process does not include foreign key constraints.
 
 ## Prerequisites
 
